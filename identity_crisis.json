@@ -1,0 +1,11 @@
+{
+  "parent": "alexmorph:first_morph",
+  "display": {
+    "icon": { "item": "minecraft:fermented_spider_eye" },
+    "title": { "translate": "advancement.alexmorph.identity_crisis.title" },
+    "description": { "translate": "advancement.alexmorph.identity_crisis.desc" },
+    "frame": "goal", "show_toast": true, "announce_to_chat": true, "hidden": false
+  },
+  "criteria": { "trigger": { "trigger": "minecraft:impossible" } },
+  "rewards": { "experience": 50 }
+}

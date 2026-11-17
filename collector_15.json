@@ -1,0 +1,11 @@
+{
+  "parent": "alexmorph:collector_5",
+  "display": {
+    "icon": { "item": "minecraft:name_tag" },
+    "title": { "translate": "advancement.alexmorph.collector_15.title" },
+    "description": { "translate": "advancement.alexmorph.collector_15.desc" },
+    "frame": "goal", "show_toast": true, "announce_to_chat": true, "hidden": false
+  },
+  "criteria": { "trigger": { "trigger": "minecraft:impossible" } },
+  "rewards": { "experience": 30 }
+}

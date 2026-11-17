@@ -1,0 +1,15 @@
+{
+  "parent": "alexmorph:first_unlock",
+  "display": {
+    "icon": { "item": "minecraft:ender_eye" },
+    "title": { "translate": "advancement.alexmorph.first_morph.title" },
+    "description": { "translate": "advancement.alexmorph.first_morph.desc" },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "trigger": { "trigger": "minecraft:impossible" }
+  }
+}

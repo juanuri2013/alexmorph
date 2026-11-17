@@ -1,0 +1,10 @@
+{
+  "parent": "alexmorph:first_morph",
+  "display": {
+    "icon": { "item": "minecraft:pufferfish" },
+    "title": { "translate": "advancement.alexmorph.aquatic.title" },
+    "description": { "translate": "advancement.alexmorph.aquatic.desc" },
+    "frame": "task", "show_toast": true, "announce_to_chat": true, "hidden": false
+  },
+  "criteria": { "trigger": { "trigger": "minecraft:impossible" } }
+}

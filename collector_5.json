@@ -1,0 +1,10 @@
+{
+  "parent": "alexmorph:first_unlock",
+  "display": {
+    "icon": { "item": "minecraft:lead" },
+    "title": { "translate": "advancement.alexmorph.collector_5.title" },
+    "description": { "translate": "advancement.alexmorph.collector_5.desc" },
+    "frame": "task", "show_toast": true, "announce_to_chat": true, "hidden": false
+  },
+  "criteria": { "trigger": { "trigger": "minecraft:impossible" } }
+}

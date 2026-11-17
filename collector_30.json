@@ -1,0 +1,11 @@
+{
+  "parent": "alexmorph:collector_15",
+  "display": {
+    "icon": { "item": "minecraft:saddle" },
+    "title": { "translate": "advancement.alexmorph.collector_30.title" },
+    "description": { "translate": "advancement.alexmorph.collector_30.desc" },
+    "frame": "goal", "show_toast": true, "announce_to_chat": true, "hidden": false
+  },
+  "criteria": { "trigger": { "trigger": "minecraft:impossible" } },
+  "rewards": { "experience": 75 }
+}

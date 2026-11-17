@@ -1,0 +1,10 @@
+{
+  "parent": "alexmorph:first_morph",
+  "display": {
+    "icon": { "item": "minecraft:feather" },
+    "title": { "translate": "advancement.alexmorph.aerial.title" },
+    "description": { "translate": "advancement.alexmorph.aerial.desc" },
+    "frame": "task", "show_toast": true, "announce_to_chat": true, "hidden": false
+  },
+  "criteria": { "trigger": { "trigger": "minecraft:impossible" } }
+}
